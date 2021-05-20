@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: #00f; */
+}
+.logo{
+    width: 150px;
+}
+#eye{
+    width: 27px;
+    position: relative;
+    top: -18px;
+    display: block;
+    cursor: pointer;
+}
+.iconeye{
+    display: inline-block;
+}
+.main{
+    width: 100%;
+    /* position: absolute; */
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d5d2d2;
+    border-radius: 10px;
+    width: 750px;
+    padding: 25px;
+}
+h3{
+    position: relative;
+    margin: 10px 0 0 13px;
+    font-size:23px;
+    font-family: jost;
+    letter-spacing: 1px;
+}
+input{
+    border: 1px solid #d5d2d2;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid #1f52f9;
+}
+.name{
+    display: inline-block;
+}
+input[type="name"]{
+    display: block;
+    margin: 30px 0px 0px 10px;
+}
+input[type="username"]{
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 390px;
+}
+.gmail{
+    position: relative;
+    display: block;
+    top: -47px;
+    left: 330px;
+    font-family: roboto;
+    color: #333;
+    font-size: 15px;
+    cursor: default;
+}
+.pass{
+    display: inline-block;
+}
+.password{
+    display: block;
+    width: 140px;
+    margin: 0 5px 0 10px;
+}
+a{
+    display: block;
+    position: relative;
+    font-family: roboto;
+    text-decoration: none;
+}
+.line1{
+    font-size: 12px;
+    margin: -30px 0 0 15px;
+}
+.line2{
+    color: #1144ed;
+    font-size: 20px;
+    margin: 20px 0 20px 15px;
+}
+.line3{
+    font-size: 12px;
+    margin: -10px 0px 0px 15px;
+    width: 310px;
+}
+.line4{
+    font-size: 18px;
+    margin: 20px 8px;
+    color: #4971f6;
+    display: inline-block;
+    font-family: arial rounded at;
+}
+input[type="submit"]{
+    background: #4971f6;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin: 40px 0 30px 180px;
+}
+input[type="submit"]:hover{
+    background: #254fdb
+}
+label{
+    position: relative;
+    top: -28px;
+    left: 20px;
+    font-family: roboto;
+    font-size: 15px;
+    color: #555;
+    pointer-events: none;
+    transition: .2s all;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -49px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 15px;
+    color: #1f52f9;
+}
+.side-image{
+display: inline-block;
+position: relative;
+top: 70px;
+left: 50%;
+transform: translate(50%,50%);
+}
+.side-logo{
+    width: 220px;
+    height: 220px;
+    display: block;
+}
